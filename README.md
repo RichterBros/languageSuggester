@@ -8,25 +8,25 @@
 
 ## Setup/Installation Requirements
 
-* _point your browser to https://github.com/RichterBros/languageSuggester
-* _press the "clone or download" button_
-* _open up terminal and type "git remote add" then hit command v (ctrl v for windows) to paste the link.
-* _choose a location on your computer and press enter"_
-* _navigate to the folder and open index.html in a browser of your choice_
+* point your browser to https://github.com/RichterBros/languageSuggester
+* press the _clone or download_ button
+* open up terminal and type _git remote add_ then press _command v_ (ctrl v for windows) to paste the link.
+* choose a location on your computer and press _enter_
+* navigate to the folder and open index.html in a browser of your choice
 
 
 
 ## Known Bugs
 
-_none yet_
+none yet
 
 ## Support and contact details
 
-_erich.richter@gmail.com_
+erich.richter@gmail.com
 
 ## Technologies Used
 
-_html/css/bootstrap/jquery_
+html/css/bootstrap/jquery
 
 ### License
 
