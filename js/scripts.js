@@ -51,25 +51,25 @@ $(document).ready(function(){
       
       
       if (result === 0){
-        $("#output").text("please select some items");
+        $("#output").text("Please select some items.");
         $("#output").show();
 
       }
       
       else if (result >= 1 && result <= 3){
-        $("#output").text("your language is python");
+        $("#output").text("Your language is python!");
         $("#output").show();
 
       }
 
       if (result >= 4 && result <= 7){
-        $("#output").text("your language is javascript#");
+        $("#output").text("Your language is javascript!");
         $("#output").show();
 
       }
 
       if (result >= 6){
-        $("#output").text("your language is c#");
+        $("#output").text("Your language is c#!");
         $("#output").show();
 
       }
