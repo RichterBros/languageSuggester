@@ -24,7 +24,31 @@ $(document).ready(function(){
           result += 1;
         
       }
-      //alert(result);
+
+      var radioValue = parseInt($("input[name='pie']:checked").val());
+      if(radioValue){
+          result += 1;
+        
+      }
+
+      var radioValue = parseInt($("input[name='pizza']:checked").val());
+      if(radioValue){
+          result += 1;
+        
+      }
+
+      var radioValue = parseInt($("input[name='coffee']:checked").val());
+      if(radioValue){
+          result += 1;
+        
+      }
+
+      var radioValue = parseInt($("input[name='exercize']:checked").val());
+      if(radioValue){
+          result += 1;
+        
+      }
+      
       
       if (result === 0){
         $("#output").text("please select some items");
@@ -32,19 +56,25 @@ $(document).ready(function(){
 
       }
       
-      if (result === 4){
+      else if (result >= 1 && result <= 4 ){
         $("#output").text("your language is python");
         $("#output").show();
 
       }
 
-      if (result === 6){
+      if (result >= 5 && result < 7){
+        $("#output").text("your language is javascript#");
+        $("#output").show();
+
+      }
+
+      if (result >= 6){
         $("#output").text("your language is c#");
         $("#output").show();
 
       }
 
-    
+      console.log(result);
 
 event.preventDefault();
   });
