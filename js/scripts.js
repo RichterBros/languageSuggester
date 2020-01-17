@@ -56,13 +56,13 @@ $(document).ready(function(){
 
       }
       
-      else if (result >= 1 && result <= 4 ){
+      else if (result >= 1 && result <= 3){
         $("#output").text("your language is python");
         $("#output").show();
 
       }
 
-      if (result >= 5 && result < 7){
+      if (result >= 4 && result <= 7){
         $("#output").text("your language is javascript#");
         $("#output").show();
 
