@@ -6,28 +6,35 @@ $(document).ready(function() {
   
   if (question1 === "yes"){
     question1 = 1;
+  }else{
+    question1=0;
   }
   
   if (question2 === "yes"){
     question2 = 1;
+  }else{
+    question2 = 0;
   }
   
   if (question3 === "yes"){
     question3 = 1;  
+  }else{
+    question3 = 0;
   }
   
-  if (question1 + question2 + question3 > 2){
+  if (question1 + question2 + question3 < 2){
 
   
     $("#output").text("your language is python");
     $("#output").show();
   }
   
+  if (question1 + question2 + question3 == 3){
+
   
-  
-  console.log(question1);
-  
-  
+    $("#output").text("your language is C#");
+    $("#output").show();
+  }
   //if (side1 && side2 && side3) {  
     //if (side1 + side2 <= side3 || side2 + side3 <= side1 || side1 + side3 <= side2) {
       //$("#output").text("Not a triangle, sorry");
