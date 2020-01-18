@@ -1,10 +1,10 @@
 # _Language Suggester Website_
 
-#### _A Site That Helps You Choose A Programming Language, {01-10-2020}_
+## Description
+
+#### _A Site That Helps You Choose A Programming Language, 01-16-2020_
 
 #### By _**Erich Richter**_
-
-## Description
 
 ## Setup/Installation Requirements
 
