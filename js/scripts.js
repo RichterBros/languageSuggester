@@ -1,8 +1,6 @@
 $(document).ready(function(){
-  var test = 0;
+  
   var result = 0;
-  var strList = []
-  var z=0
   
   $("input[type='button']").click(function(){
     event.preventDefault();
